@@ -318,6 +318,7 @@ int main(){
 	printf("Guide:\n  1. open the image with mspaint\n  2. save the image as a 24-bit BMP picture named \"image.bmp\"\n  3. run this program\n\n");
 	printf("Due to various reasons, the result may be not optimal.\nRun it several times to get a better result.\n");
 
+	// certain msg for test.
 
 	struct BMPdata aa, bb, cc;
 	inFile(&aa, "image.bmp");
